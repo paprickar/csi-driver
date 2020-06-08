@@ -17,5 +17,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: paprickar/csi-driver/hcloud-csi-driver:latest
+          repository: paprickar/csi-driver/hcloud-csi-driver
           tag_with_ref: true
